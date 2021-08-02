@@ -7,5 +7,7 @@
   "contentutils.command.error": "%(contentutils.prefix) &cEs ist ein Fehler aufgetreten!",
   "contentutils.command.invalid-syntax": "%(contentutils.prefix) &cFalsche Benutzung!",
   "contentutils.command.sound.sound-not-found": "%(contentutils.prefix) &cDieser Sound konnte nicht gefunden werden!",
-  "contentutils.command.sound.pitch-not-valid": "%(contentutils.prefix) &cEs wurde kein valider Pitch eingegeben! Es wird 1.0 verwendet..."
+  "contentutils.command.sound.pitch-not-valid": "%(contentutils.prefix) &cEs wurde kein valider Pitch eingegeben! Es wird 1.0 verwendet...",
+  "contentutils.command.toggle-chat.enabled": "%(contentutils.prefix) &aDu hast deinen Chat in den Nachrichten-Modus gewechselt.",
+  "contentutils.command.toggle-chat.disabled": "%(contentutils.prefix) &cDu hast deinen Chat in den normalen Modus gewechselt."
 }
