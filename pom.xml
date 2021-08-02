@@ -101,6 +101,7 @@
                 <filtering>true</filtering>
                 <includes>
                     <include>**/plugin.yml</include>
+                    <include>messages.json</include>
                 </includes>
             </resource>
         </resources>
