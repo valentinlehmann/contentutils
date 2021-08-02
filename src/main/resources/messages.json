@@ -9,5 +9,16 @@
   "contentutils.command.sound.sound-not-found": "%(contentutils.prefix) &cDieser Sound konnte nicht gefunden werden!",
   "contentutils.command.sound.pitch-not-valid": "%(contentutils.prefix) &cEs wurde kein valider Pitch eingegeben! Es wird 1.0 verwendet...",
   "contentutils.command.toggle-chat.enabled": "%(contentutils.prefix) &aDu hast deinen Chat in den Nachrichten-Modus gewechselt.",
-  "contentutils.command.toggle-chat.disabled": "%(contentutils.prefix) &cDu hast deinen Chat in den normalen Modus gewechselt."
+  "contentutils.command.toggle-chat.disabled": "%(contentutils.prefix) &cDu hast deinen Chat in den normalen Modus gewechselt.",
+  "contentutils.command.inventory.already-existing": "%(contentutils.prefix) &cDieses Inventar existiert bereits!",
+  "contentutils.command.inventory.created": "%(contentutils.prefix) &aDu hast das Inventar {0} erstellt.",
+  "contentutils.command.inventory.edit": "%(contentutils.prefix) &aDu editierst nun das Inventar {0}.",
+  "contentutils.command.inventory.edit-off": "%(contentutils.prefix) &cDu editierst nun kein Inventar mehr.",
+  "contentutils.command.inventory.no-such-inventory": "%(contentutils.prefix) &cDieses Inventar konnte nicht gefunden werden!",
+  "contentutils.command.inventory.no-edit-inventory": "%(contentutils.prefix) &cDu editierst gerade kein Inventar!",
+  "contentutils.command.inventory.set-size": "%(contentutils.prefix) &aDu hast die Zeilenanzahl des Inventars auf {0} gesetzt!",
+  "contentutils.command.inventory.set-title": "%(contentutils.prefix) &aDu hast den Titel des Inventars auf {0}&a gesetzt!",
+  "contentutils.command.inventory.items-saved": "%(contentutils.prefix) &aDu hast die Items des Inventars gespeichert!",
+  "contentutils.command.inventory.deleted": "%(contentutils.prefix) &cDu hast das Inventar {0} gelöscht!",
+  "contentutils.command.inventory.help.0": "Test"
 }

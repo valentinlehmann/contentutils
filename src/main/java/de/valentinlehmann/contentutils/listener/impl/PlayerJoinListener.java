@@ -13,6 +13,6 @@ public class PlayerJoinListener extends AbstractListener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        getPlugin().getPlayerRepository().add(new ContentUtilsPlayer(event.getPlayer().getUniqueId(), false));
+        getPlugin().getPlayerRepository().add(new ContentUtilsPlayer(event.getPlayer().getUniqueId(), false, null));
     }
 }
