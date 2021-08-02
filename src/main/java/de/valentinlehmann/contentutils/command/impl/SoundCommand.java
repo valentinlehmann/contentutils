@@ -23,7 +23,7 @@ public class SoundCommand extends AbstractCommand {
 
         this.soundNames = Arrays.stream(Sound.values()).map(Sound::name).collect(Collectors.toList());
 
-        getContentUtilsPlugin().getCommandManager().getCommandCompletions().registerStaticCompletion("sounds", soundNames);
+        getPlugin().getCommandManager().getCommandCompletions().registerStaticCompletion("sounds", soundNames);
     }
 
     @Default
@@ -32,7 +32,7 @@ public class SoundCommand extends AbstractCommand {
         sound = sound.toUpperCase();
 
         if (!this.soundNames.contains(sound)) {
-            player.sendMessage(getContentUtilsPlugin().getLocalizeUtils().getMessage("contentutils.command.sound.sound-not-found"));
+            player.sendMessage(getPlugin().getLocalizeUtils().getMessage("contentutils.command.sound.sound-not-found"));
             return;
         }
 
@@ -41,7 +41,7 @@ public class SoundCommand extends AbstractCommand {
         try {
             pitchFloat = Float.parseFloat(pitch);
         } catch (NumberFormatException e) {
-            player.sendMessage(getContentUtilsPlugin().getLocalizeUtils().getMessage("contentutils.command.sound.pitch-not-valid"));
+            player.sendMessage(getPlugin().getLocalizeUtils().getMessage("contentutils.command.sound.pitch-not-valid"));
         }
 
         player.playSound(player.getLocation(), Sound.valueOf(sound), 1.0F, pitchFloat);

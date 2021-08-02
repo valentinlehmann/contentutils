@@ -8,5 +8,5 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @Getter
 public abstract class AbstractCommand extends BaseCommand {
-    private final ContentUtilsPlugin contentUtilsPlugin;
+    private final ContentUtilsPlugin plugin;
 }
