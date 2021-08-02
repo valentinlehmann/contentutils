@@ -1,0 +1,11 @@
+{
+  "contentutils.prefix": "&8[&cContentUtils&8]&7",
+  "contentutils.no-perms": "%(contentutils.prefix) &cDazu fehlen dir die Berechtigungen!",
+  "contentutils.command.only-players": "%(contentutils.prefix) &cDieser Befehl ist nur für Spieler bestimmt!",
+  "contentutils.command.not-found": "%(contentutils.prefix) &cDieser Befehl konnte nicht gefunden werden!",
+  "contentutils.command.player-not-found": "%(contentutils.prefix) &cDieser Spieler konnte nicht gefunden werden!",
+  "contentutils.command.error": "%(contentutils.prefix) &cEs ist ein Fehler aufgetreten!",
+  "contentutils.command.invalid-syntax": "%(contentutils.prefix) &cFalsche Benutzung!",
+  "contentutils.command.sound.sound-not-found": "%(contentutils.prefix) &cDieser Sound konnte nicht gefunden werden!",
+  "contentutils.command.sound.pitch-not-valid": "%(contentutils.prefix) &cEs wurde kein valider Pitch eingegeben! Es wird 1.0 verwendet..."
+}
