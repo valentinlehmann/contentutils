@@ -5,6 +5,8 @@ import java.util.Collection;
 public interface Repository<T, K> {
     void add(T t);
 
+    boolean contains(K key);
+
     Collection<T> getAll();
 
     T get(K key);

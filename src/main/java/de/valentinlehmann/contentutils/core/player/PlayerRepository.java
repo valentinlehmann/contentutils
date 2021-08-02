@@ -15,6 +15,11 @@ public class PlayerRepository implements Repository<ContentUtilsPlayer, UUID> {
     }
 
     @Override
+    public boolean contains(UUID key) {
+        return this.storage.containsKey(key);
+    }
+
+    @Override
     public Collection<ContentUtilsPlayer> getAll() {
         return this.storage.values();
     }
