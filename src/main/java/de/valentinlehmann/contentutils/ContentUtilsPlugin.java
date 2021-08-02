@@ -2,6 +2,7 @@ package de.valentinlehmann.contentutils;
 
 import co.aikar.commands.PaperCommandManager;
 import de.valentinlehmann.contentutils.command.AbstractCommand;
+import de.valentinlehmann.contentutils.core.player.PlayerRepository;
 import de.valentinlehmann.contentutils.listener.AbstractListener;
 import de.valentinlehmann.contentutils.utils.ClassPathUtils;
 import de.valentinlehmann.contentutils.utils.LocalizeUtils;
@@ -13,6 +14,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class ContentUtilsPlugin extends JavaPlugin {
     private final ClassPathUtils classPathUtils = new ClassPathUtils(this);
     private final LocalizeUtils localizeUtils = new LocalizeUtils(this);
+    private final PlayerRepository playerRepository = new PlayerRepository();
     private PaperCommandManager commandManager;
 
     @Override
