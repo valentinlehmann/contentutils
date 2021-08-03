@@ -5,7 +5,7 @@
   "contentutils.command.not-found": "%(contentutils.prefix) &cDieser Befehl konnte nicht gefunden werden!",
   "contentutils.command.player-not-found": "%(contentutils.prefix) &cDieser Spieler konnte nicht gefunden werden!",
   "contentutils.command.error": "%(contentutils.prefix) &cEs ist ein Fehler aufgetreten!",
-  "contentutils.command.error-prefix": "%(contentutils.prefix) &cEs ist ein Fehler aufgetreten: {message}",
+  "contentutils.command.error-prefix": "%(contentutils.prefix) &c{message}",
   "contentutils.command.please-specify": "%(contentutils.prefix) &cBitte wähle aus folgenden Optionen: {valid}",
   "contentutils.command.invalid-syntax": "%(contentutils.prefix) &cFalsche Benutzung!",
   "contentutils.command.sound.sound-not-found": "%(contentutils.prefix) &cDieser Sound konnte nicht gefunden werden!",
@@ -30,5 +30,11 @@
   "contentutils.command.lore.remove": "%(contentutils.prefix) &cDu hast die {0}. Zeile von der Lore entfernt!",
   "contentutils.command.lore.set": "%(contentutils.prefix) &aDu hast die {0}. Zeile der Lore auf {1}&a gesetzt!",
   "contentutils.command.lore.insert": "%(contentutils.prefix) &aDu hast die Zeile {1}&a an {0}. Stelle eingefügt!",
-  "contentutils.command.lore.clear": "%(contentutils.prefix) &cDu hast die Lore geleert!"
+  "contentutils.command.lore.clear": "%(contentutils.prefix) &cDu hast die Lore geleert!",
+  "contentutils.command.enchantment.not-existing": "%(contentutils.prefix) &cDieses Enchantment existiert nicht!",
+  "contentutils.command.enchantment.add": "%(contentutils.prefix) &aDu hast das Enchantment {0} zum Item hinzugefügt!",
+  "contentutils.command.enchantment.no-enchantments": "Das Item hat keine Enchantments!",
+  "contentutils.command.enchantment.not-present": "%(contentutils.prefix) &cDas Item ist nicht mit {0} enchanted!",
+  "contentutils.command.enchantment.removed": "%(contentutils.prefix) &aDu hast das Enchantment {0} vom Item entfernt!",
+  "contentutils.command.enchantment.cleared": "%(contentutils.prefix) &aDu hast sämtliche Enchantments vom Item entfernt!"
 }
