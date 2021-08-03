@@ -1,0 +1,4 @@
+name: ContentUtils
+author: Valentin Lehmann (BlockSeekerHD)
+main: de.valentinlehmann.contentutils.ContentUtilsPlugin
+version: ${project.version}
