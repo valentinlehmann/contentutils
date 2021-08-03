@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 @CommandPermission("contentutils.itemflag")
-@CommandAlias("itemflag")
+@CommandAlias("itemflag|itemflags")
 public class ItemFlagCommand extends AbstractCommand {
     public ItemFlagCommand(ContentUtilsPlugin plugin) {
         super(plugin);
