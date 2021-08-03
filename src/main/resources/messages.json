@@ -41,5 +41,6 @@
   "contentutils.command.itemflag.add": "%(contentutils.prefix) &aDu hast den ItemFlag {0} zum Item hinzugefügt!",
   "contentutils.command.itemflag.not-present": "%(contentutils.prefix) &cDas Item hat diesen ItemFlag nicht!",
   "contentutils.command.itemflag.remove": "%(contentutils.prefix) &cDu hast den ItemFlag {0} vom Item entfernt!",
-  "contentutils.command.itemflag.clear": "%(contentutils.prefix) &cDu hast sämtliche ItemFlags vom Item entfernt!"
+  "contentutils.command.itemflag.clear": "%(contentutils.prefix) &cDu hast sämtliche ItemFlags vom Item entfernt!",
+  "contentutils.command.itemrename.done": "%(contentutils.prefix) &aDu hast das Item in {0}&a umbenannt!"
 }
