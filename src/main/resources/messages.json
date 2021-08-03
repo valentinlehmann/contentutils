@@ -23,5 +23,12 @@
   "contentutils.command.inventory.set-title": "%(contentutils.prefix) &aDu hast den Titel des Inventars auf {0}&a gesetzt!",
   "contentutils.command.inventory.items-saved": "%(contentutils.prefix) &aDu hast die Items des Inventars gespeichert!",
   "contentutils.command.inventory.deleted": "%(contentutils.prefix) &cDu hast das Inventar {0} gelöscht!",
-  "contentutils.command.inventory.help.0": "Test"
+  "contentutils.command.no-item-in-hand": "Du hältst kein Item in deiner Hand!",
+  "contentutils.command.lore.add": "%(contentutils.prefix) &aDu hast die Zeile {0}&a zur Lore hinzugefügt!",
+  "contentutils.command.lore.no-lore": "%(contentutils.prefix) &cDieses Item hat keine Lore!",
+  "contentutils.command.lore.line-not-existing": "%(contentutils.prefix) &cDieses Zeile existiert nicht!",
+  "contentutils.command.lore.remove": "%(contentutils.prefix) &cDu hast die {0}. Zeile von der Lore entfernt!",
+  "contentutils.command.lore.set": "%(contentutils.prefix) &aDu hast die {0}. Zeile der Lore auf {1}&a gesetzt!",
+  "contentutils.command.lore.insert": "%(contentutils.prefix) &aDu hast die Zeile {1}&a an {0}. Stelle eingefügt!",
+  "contentutils.command.lore.clear": "%(contentutils.prefix) &cDu hast die Lore geleert!"
 }
