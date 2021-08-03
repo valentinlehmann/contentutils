@@ -12,6 +12,7 @@ import lombok.SneakyThrows;
 import org.apache.commons.lang.text.StrSubstitutor;
 import org.bukkit.ChatColor;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
@@ -24,8 +25,7 @@ public class LocalizeUtils {
     private final JsonParser jsonParser = new JsonParser();
     private final ContentUtilsPlugin plugin;
 
-    @SneakyThrows
-    public void loadMessages() {
+    public void loadMessages() throws IOException {
         InputStream inputStream = this.plugin.getResource("messages.json");
 
         if (inputStream == null) {
