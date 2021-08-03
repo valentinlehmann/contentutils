@@ -29,7 +29,8 @@ public class ContentUtilsPlugin extends JavaPlugin {
         this.commandManager = new PaperCommandManager(this);
         this.commandManager.enableUnstableAPI("help");
         this.commandManager.getCommandConditions().addCondition("item_in_hand", context -> {
-            if (context.getIssuer().getPlayer().getItemInHand() != null
+            if (context.getIssuer().isPlayer()
+                    && context.getIssuer().getPlayer().getItemInHand() != null
                     && context.getIssuer().getPlayer().getItemInHand().getType() != Material.AIR) {
                 return;
             }
