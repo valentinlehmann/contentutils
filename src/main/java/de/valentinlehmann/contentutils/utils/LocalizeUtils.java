@@ -8,7 +8,6 @@ import com.google.gson.JsonParser;
 import com.google.gson.JsonPrimitive;
 import de.valentinlehmann.contentutils.ContentUtilsPlugin;
 import lombok.RequiredArgsConstructor;
-import lombok.SneakyThrows;
 import org.apache.commons.lang.text.StrSubstitutor;
 import org.bukkit.ChatColor;
 
