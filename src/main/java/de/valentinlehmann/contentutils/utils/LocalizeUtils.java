@@ -15,7 +15,6 @@ import org.bukkit.ChatColor;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Locale;
 
@@ -85,9 +84,9 @@ public class LocalizeUtils {
         locales.addMessage(locale, MessageKeys.NOT_ALLOWED_ON_CONSOLE, getMessage("contentutils.command.only-players"));
         locales.addMessage(locale, MessageKeys.COULD_NOT_FIND_PLAYER, getMessage("contentutils.command.player-not-found"));
         locales.addMessage(locale, MessageKeys.INVALID_SYNTAX, getMessage("contentutils.command.invalid-syntax"));
-
-        Arrays.asList(MessageKeys.ERROR_GENERIC_LOGGED, MessageKeys.ERROR_PREFIX, MessageKeys.PLEASE_SPECIFY_ONE_OF)
-                .forEach(messageKey -> locales.addMessage(locale, messageKey, getMessage("contentutils.command.error")));
+        locales.addMessage(locale, MessageKeys.ERROR_PREFIX, getMessage("contentutils.command.error-prefix"));
+        locales.addMessage(locale, MessageKeys.ERROR_GENERIC_LOGGED, getMessage("contentutils.command.error"));
+        locales.addMessage(locale, MessageKeys.PLEASE_SPECIFY_ONE_OF, getMessage("contentutils.command.please-specify"));
     }
 
     public String getMessage(String key, Object... replacements) {

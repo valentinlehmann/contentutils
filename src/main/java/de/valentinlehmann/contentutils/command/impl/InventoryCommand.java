@@ -22,7 +22,7 @@ public class InventoryCommand extends AbstractCommand {
                 return;
             }
 
-            throw new ConditionFailedException(getPlugin().getLocalizeUtils().getMessage("contentutils.command.inventory.no-inventory-selected"));
+            throw new ConditionFailedException(getPlugin().getLocalizeUtils().getMessage("contentutils.command.inventory.no-edit-inventory-raw"));
         });
 
         getPlugin().getCommandManager().getCommandContexts().registerIssuerOnlyContext(SerializableInventory.class,
