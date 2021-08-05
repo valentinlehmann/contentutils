@@ -8,10 +8,10 @@ import com.google.gson.JsonParser;
 import com.google.gson.JsonPrimitive;
 import de.valentinlehmann.contentutils.ContentUtilsPlugin;
 import lombok.RequiredArgsConstructor;
-import lombok.SneakyThrows;
 import org.apache.commons.lang.text.StrSubstitutor;
 import org.bukkit.ChatColor;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
@@ -24,8 +24,7 @@ public class LocalizeUtils {
     private final JsonParser jsonParser = new JsonParser();
     private final ContentUtilsPlugin plugin;
 
-    @SneakyThrows
-    public void loadMessages() {
+    public void loadMessages() throws IOException {
         InputStream inputStream = this.plugin.getResource("messages.json");
 
         if (inputStream == null) {
@@ -98,6 +97,7 @@ public class LocalizeUtils {
             message = "Localize: " + key;
         }
 
+        // MessageFormat.format was not used because it interferes with the aikar locale system
         for (int i = 0; i < replacements.length; i++) {
             message = message.replace("{" + i + "}", String.valueOf(replacements[i]));
         }

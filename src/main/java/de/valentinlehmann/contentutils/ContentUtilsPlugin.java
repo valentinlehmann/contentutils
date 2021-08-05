@@ -14,6 +14,8 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.io.IOException;
+
 @Getter
 public class ContentUtilsPlugin extends JavaPlugin {
     private final InventoryRepository inventoryRepository = new InventoryRepository(this);
@@ -45,7 +47,12 @@ public class ContentUtilsPlugin extends JavaPlugin {
         this.classPathUtils.createInstanceAndApplyAction("de.valentinlehmann.contentutils.listener.impl",
                 AbstractListener.class, listener -> Bukkit.getPluginManager().registerEvents(listener, this), this);
 
-        this.localizeUtils.loadMessages();
+        try {
+            this.localizeUtils.loadMessages();
+        } catch (IOException e) {
+            getLogger().severe("Konnte die Nachrichten nicht korrekt laden!");
+            e.printStackTrace();
+        }
         this.inventoryRepository.startup();
     }
 
