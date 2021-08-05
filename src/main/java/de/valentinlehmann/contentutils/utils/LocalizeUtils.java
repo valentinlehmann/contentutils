@@ -97,6 +97,7 @@ public class LocalizeUtils {
             message = "Localize: " + key;
         }
 
+        // MessageFormat.format was not used because it interferes with the aikar locale system
         for (int i = 0; i < replacements.length; i++) {
             message = message.replace("{" + i + "}", String.valueOf(replacements[i]));
         }
