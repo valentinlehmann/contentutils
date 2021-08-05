@@ -2,7 +2,7 @@ package de.valentinlehmann.contentutils.utils;
 
 import de.valentinlehmann.contentutils.ContentUtilsPlugin;
 import lombok.RequiredArgsConstructor;
-import org.reflections.Reflections;
+import org.reflections8.Reflections;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.Set;
